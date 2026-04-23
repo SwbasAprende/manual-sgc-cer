@@ -1,0 +1,52 @@
+site_name: Manual de Usuario — SGC CER
+site_description: Sistema de Gestión de Correspondencia • Corporación Centro de Estudios Regionales
+site_author: Johan Sebastián Páez Fonce
+docs_dir: docs
+theme:
+  name: material
+  language: es
+  palette:
+    primary: teal
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+
+nav:
+  - Inicio: index.md
+  - Primeros pasos:
+      - Acceso al sistema: acceso.md
+      - Roles y permisos: roles.md
+  - Tareas principales:
+      - Dashboard: dashboard.md
+      - Registrar un radicado: registrar.md
+      - Buscar y filtrar radicados: buscar.md
+      - Ver detalle de un radicado: detalle.md
+      - Cambiar estado de un radicado: estados.md
+      - Imprimir etiqueta: etiqueta.md
+  - Administración:
+      - Gestión de usuarios: usuarios.md
+  - Referencia:
+      - Glosario: glosario.md
+      - Preguntas frecuentes: faq.md
+      - Limitaciones del sistema: limitaciones.md
+      - Soporte técnico: soporte.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+extra:
+  generator: false
