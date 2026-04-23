@@ -1,6 +1,7 @@
 # Roles y permisos
 
-El sistema tiene tres roles. Tu rol lo asigna el Administrador.
+!!! info "El sistema cuenta con tres roles."
+Tu rol lo asigna el Administrador.
 
 | Rol               | Quién lo usa            | Qué puede hacer                                          |
 | ----------------- | ----------------------- | -------------------------------------------------------- |

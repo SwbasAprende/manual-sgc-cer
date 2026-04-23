@@ -2,6 +2,8 @@
 
 Al iniciar sesión el sistema te lleva automáticamente al **Dashboard**.
 
+![Panel principal del sistema](assets/img/Panel_principal__Dashboard__con_indicadores_y_últimos%20radicados.jpg)
+
 ## ¿Qué muestra?
 
 - **Total radicados** — todos los documentos registrados en el sistema.

@@ -11,11 +11,15 @@ Solo usuarios con rol **Administrador** u **Operador**.
 4. En **Observación** (opcional), escribe una nota que explique el cambio. Ejemplo: _"Documento enviado a revisión por la dirección"_.
 5. Haz clic en **Actualizar Estado**.
 
+![Módulo de gestión de estado](assets/img/Módulo_de_gestión_de_estado__campo_de_observación.png)
+
 El sistema guarda el cambio, actualiza la ficha y registra una nueva entrada en el historial automáticamente.
 
 ---
 
 ## Estados disponibles
+
+![Menú desplegable](assets/img/Módulo_de_gestión_de_estado___menú_desplegable.png)
 
 | Estado          | Significado                    |
 | --------------- | ------------------------------ |
@@ -29,3 +33,5 @@ El sistema guarda el cambio, actualiza la ficha y registra una nueva entrada en 
 
 !!! tip "Sin cambio, sin registro"
 Si seleccionas el mismo estado actual, el sistema no generará una nueva entrada en el historial.
+
+![Estado actual del radicado](assets/img/Primera_entrada_del_historial___creación_del_radicado.png)
